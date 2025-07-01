@@ -42,3 +42,63 @@ body {
     border-radius: 8px;
     font-size: 1.2em;
 }
+.Q1 img {
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Q1 img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 16px #10e233;
+    border: 2px solid #10e233;
+}
+.Q2 img: {
+   transition: transform 0.3s, box-shadow 0.3s;
+   cursor: pointer;
+   border-radius: 10px
+}
+
+.Q2 img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 16px #10e233;
+    border: 2px solid #10e233;
+
+}
+.Q3 img {
+   transition: transform 0.3s, box-shadow 0.3s;
+   cursor: pointer;
+   border-radius: 10px;
+
+}
+.Q3 img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 16px #10e233;
+    border: 2px solid #10e233;
+}
+
+.Q1 {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 32px;
+   width: 60vw;
+   max-width: 700px;
+   margin: 0 auto;
+}
+
+.Q2,
+.Q3 {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 32px;
+   width: 60vw;
+   max-width: 700px;
+   margin: 0 auto;
+}
+
+.Q1 img.selected,
+.Q2 img.selected,
+.Q3 img.selected {
+    border: 4px solid #ff9800;
+    box-shadow: 0 0 16px #ff9800;
+}
